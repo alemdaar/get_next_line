@@ -6,11 +6,11 @@
 /*   By: oelhasso <elhassounioussama2@gmail.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 22:48:29 by oelhasso          #+#    #+#             */
-/*   Updated: 2024/12/04 22:48:30 by oelhasso         ###   ########.fr       */
+/*   Updated: 2025/02/21 17:47:49 by oelhasso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t	ft_strlen(char *str)
 {

@@ -6,7 +6,7 @@
 /*   By: oelhasso <elhassounioussama2@gmail.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 22:48:15 by oelhasso          #+#    #+#             */
-/*   Updated: 2024/12/05 11:00:28 by oelhasso         ###   ########.fr       */
+/*   Updated: 2025/02/21 17:48:30 by oelhasso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,10 +38,8 @@ int	new_line_check(char *buffer)
 char	*return_new_line(char *buffer, char **left_address)
 {
 	char	*str;
-	int		i;
 	int		p;
 
-	i = 0;
 	p = ft_strchr(buffer, '\n');
 	if (p == -1)
 	{
